@@ -12,8 +12,9 @@ We trained yolo v8 version to detect cyclists. With help of opencv we were able 
 -`pip install roboflow`<br>
 -`pip install ultralytics` <br>
 -`pip install pillow`<br>
--`pip install ipython`<br> 
-# To execute the entire notebook from the command line and save the output:
--`jupyter nbconvert --to notebook --execute notebooks/cyclist_Detection.ipynb --output executed_notebook.ipynb`
+# To run cyclist detection:
+-`python run_inference.py --weights models/best1.pt --source test_images/`
+
+
 
 
