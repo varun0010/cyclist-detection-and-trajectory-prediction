@@ -24,7 +24,8 @@ we trained it on [this](https://www.kaggle.com/datasets/zcyan2/onsitevru-traject
 -`pip install scikit-learn` <br>
 # To run trajectary prediction
 -`python run_trajectory_prediction.py --model models/normal_lstm_model.pth --test_data images/test.npy`<br>
-# Combined 
+# To run Combined 
+-`python combined_pipeline.py --yolo_weights models/best1.pt --lstm_weights models/normal_lstm_model.pth --video "test image/video.mp4"`
 
 
 
