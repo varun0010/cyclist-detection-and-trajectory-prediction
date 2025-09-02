@@ -14,6 +14,16 @@ We trained yolo v8 version to detect cyclists. With help of opencv we were able 
 -`pip install pillow`<br>
 # To run cyclist detection:
 -`python run_inference.py --weights models/best1.pt --source test_images/`
+# Trajectary prediction using LSTM model
+<br>We trained a Long term short memory machine learning model to take 5 previous frame's coordinates as input.<br>
+we trained it on [this](https://www.kaggle.com/datasets/zcyan2/onsitevru-trajectory-prediction-dataset?select=train_data_y.npy) dataset<br>
+# Installation
+-`pip install torch  `<br>
+-`pip install numpy` <br>
+-`pip install matplotlib `<br>
+-`pip install scikit-learn` <br>
+# to run trajectary prediction
+
 
 
 
