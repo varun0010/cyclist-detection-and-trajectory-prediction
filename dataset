@@ -1,1 +1,18 @@
-
+@misc{
+cyclists-lt9pl_dataset,
+title = { Cyclists Dataset },
+type = { Open Source Dataset },
+author = { Cycler },
+howpublished = { \url{ https://universe.roboflow.com/cycler-vi9vn/cyclists-lt9pl } },
+url = { https://universe.roboflow.com/cycler-vi9vn/cyclists-lt9pl },
+journal = { Roboflow Universe },
+publisher = { Roboflow },
+year = { 2023 },
+month = { jan },
+note = { visited on 2025-09-04 },
+}
+This is the cyclist image dataset we used in our project
+Citation
+Kress, V., Zernetsch, S., Reichert, H., Hetzel, M., Bieshaar, M., Reitberger, G., Fuchs, E., Doll, K., & Sick, B. (2021).
+Aschaffenburg Pose Dataset (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5724486
+For trajectory prediction we have use this dataset in our project
