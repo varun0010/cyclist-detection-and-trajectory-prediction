@@ -13,7 +13,7 @@ We trained yolo v8 version to detect cyclists. With help of opencv we were able 
 -`pip install ultralytics` <br>
 -`pip install pillow`<br>
 # To run cyclist detection:
--`python run_inference.py --weights models/best1.pt --source test_images/`
+-`python run_inference.py --weights models/best1.pt --source test_images/inputimage.jpg`
 # Trajectary prediction using LSTM model
 <br>We trained a Long term short memory machine learning model to take 5 previous frame's coordinates as input.<br>
 we trained it on [this](https://doi.org/10.5281/zenodo.5724486) dataset<br>
