@@ -1,0 +1,35 @@
+# --- Text files: platform-independent line endings ---
+*.py      text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.csv     text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+
+# --- Jupyter notebooks: treat as text and enable nicer diffs on GitHub ---
+*.ipynb   text eol=lf
+
+# --- Images and binaries: mark as binary so Git doesn't attempt to merge/diff them ---
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.bmp     binary
+*.tiff    binary
+*.ico     binary
+
+# --- Model weights & other binary artifacts ---
+*.pt      binary
+*.pth     binary
+*.h5      binary
+*.onnx    binary
+*.pb      binary
+*.zip     binary
+*.tar     binary
+
+# --- Windows Batch scripts: keep CRLF endings (optional) ---
+*.bat     text eol=crlf
+
+# --- Mac/Unix Shell scripts: keep LF endings ---
+*.sh      text eol=lf
