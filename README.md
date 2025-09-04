@@ -22,8 +22,7 @@ we trained it on [this](https://www.kaggle.com/datasets/zcyan2/onsitevru-traject
 -`pip install numpy` <br>
 -`pip install matplotlib `<br>
 -`pip install scikit-learn` <br>
-# To run trajectary prediction
--`python run_trajectory_prediction.py --model models/normal_lstm_model.pth --test_data images/test.npy`<br>
+<br>
 # To run combined model on video 
 # installation
 -`pip install ultralytics deep_sort_realtime torch numpy opencv-python`
